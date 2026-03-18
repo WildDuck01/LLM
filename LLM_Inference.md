@@ -77,7 +77,7 @@ logits → softmax → probability → sampling → next token
 ## ① Greedy（贪心）
 
 ```python
-argmax(P(token))
+argmax(Prob(token))
 ```
 
 - ✅ 稳定
