@@ -146,7 +146,7 @@ argmax(Prob(token))
 
 ---
 
-# 📏 4. Max New Tokens（生成长度控制）
+# 📏 3.5. Max New Tokens（生成长度控制）
 
 > ✅ 控制模型最多生成多少“新 token”（不包含 Prompt）
 
@@ -194,7 +194,7 @@ token ↑ → latency ↑ → cost ↑
 
 ---
 
-# 🛑 5. 停止机制（Stop Condition）
+# 🛑 4. 停止机制（Stop Condition）
 
 | 方式 | 说明 |
 |------|------|
@@ -261,8 +261,6 @@ token ↑ → latency ↑ → cost ↑
 
 # 🔭 9. 后续学习方向
 
-- Sampling 代码实现（PyTorch）
-- Beam Search vs Greedy
 - KV Cache（推理加速）
 - Speculative Decoding
 - 推理优化 & 模型压缩
